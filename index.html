@@ -18,14 +18,30 @@ http://www.youtube.com/watch?v=TfhKilgGsFk
 	<link href='http://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
 	<link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-	<!-- // <script src="js/jquery-1.9.0.js"></script> -->
+
+	<script src="js/jquery-1.9.0.js"></script>
+  	<script src="js/jquery.cycle.all.js"></script>
+  	<script src="js/script.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() { 
+	$('#homefeature').cycle({
+			fx: 'turnRight', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+			speed: '1300',
+			timeout: '3000',
+			random: 1
+			});
+    });
+    </script>
+    
+
+
 </head>
 
 <body>		
 	<div id="home" class="page-wrapper">
 		<div id="header">
 			<!-- <span id="logo-wrap"> -->
-			<span id="logo">TGiFolashade</span> <!-- troouble shoot.. change to div -->
+			<span id="logo">You're Welcome.</span> <!-- troouble shoot.. change to div -->
 			<!-- </span> -->
 			<div id="nav-bar">
 					<span class="nav-buttons on-page" id="home">
@@ -47,7 +63,30 @@ http://www.youtube.com/watch?v=TfhKilgGsFk
 			</div>
 		</div>
 		
-		<div id="about" class="section">
+				
+				<div class="section" id="slider">
+						<div class="separator"></div>
+		    	<div class="primary"><!-- Port Item / Slider -->
+
+		            <div id="homefeature">
+		            	<a href="work/and-found/"><img src="http://coryetzkorn.com/wp-content/uploads/2011/07/and_found_feature.jpg" alt="And Found - Feature" title="And Found - Feature" width="930" height="400" class="alignnone size-full wp-image-1422" /></a>
+
+		<a href="http://coryetzkorn.com/work/reactor/"><img src="http://coryetzkorn.com/wp-content/uploads/2011/07/reactor_hero.jpg" alt="Reactor" title="Reactor" width="930" height="400" class="alignnone size-full wp-image-1513" /></a>
+
+		<a href="work/copy-paste-moving-co/"><img src="http://coryetzkorn.com/wp-content/uploads/2011/07/copypaste_feature2.jpg" alt="Copy Paste Moving Co" title="Copy Paste Moving Co" width="930" height="400" class="alignnone size-full wp-image-523" /></a>
+
+		<a href="work/wicked-palate/"><img src="http://coryetzkorn.com/wp-content/uploads/2011/07/wicked_palate_feature.jpg" alt="Wicked Palate - Feature" title="Wicked Palate - Feature" width="930" height="400" class="alignnone size-full wp-image-1238" /></a>
+
+		<a href="work/peppermint/"><img src="http://coryetzkorn.com/wp-content/uploads/2011/07/peppermint_feature3.jpg" alt="Peppermint - Featured" title="Peppermint - Featured" width="930" height="400" class="alignnone size-full wp-image-1047" /></a>            </div>  
+
+				        </div><!-- End Port Item -->
+						</div>
+						
+						<!-- <div class="separator"></div> -->
+		
+		<!-- <div id="open"></div> -->
+		
+		<div id="about-me" class="section">
 			<div class="separator"></div>
 			<div class="arrow-down"></div>
 			<div class="section-title">About Me</div>
@@ -59,17 +98,35 @@ http://www.youtube.com/watch?v=TfhKilgGsFk
 			<div class="separator"></div>
 			<div class="arrow-down"></div>
 			<div class="section-title">Projects</div>
+			
+			<div class="project-box"></div>
+			<div class="project-box"></div>
+			<div class="project-box"></div>
+			<div class="project-box"></div>
+			<div class="project-box"></div>
+			<div class="project-box"></div>
+			<div class="project-box"></div>
+			<div class="project-box"></div>
+			<div class="project-box"></div>
 		</div>
+		
+		<div id="end" class="section">
+			<!-- <div class="separator"></div> -->
+			<!-- <div class="arrow-down"></div> -->
+			<!-- <div class="section-title">End</div> -->
+		</div>
+		
 		
 		
 		
 	</div> <!-- page wrapper -->
 	
 	<div id="footer">
-    	<div class="tab home"></div>
+    	<!-- <div class="tab home"></div>
 		<div class="tab mentions"></div>
 		<div class="tab favorites"></div>
-		<div class="tab profile"></div>
+		<div class="tab profile"></div> -->
+		<div style="color:white; font-size:16px; float:right; margin-top:10px; margin-right:10px;">Coded with Love by Folashade</div>
   	</div>
 	
 </body>

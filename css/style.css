@@ -33,7 +33,7 @@ body {
 }*/
 
 
-/* NAVIGATION */
+/******* NAVIGATION *******/
 #header {
 	vertical-align: top;
 }
@@ -103,7 +103,9 @@ body {
 }
 
 
-
+/*.section#slider {*/
+/*	margin-top:25px;*/
+/*}*/
 
 
 
@@ -126,7 +128,7 @@ body {
 	color: #00C5CD;
 }
 
-.nav-buttons a{
+.nav-buttons a {
 	text-decoration:none;
 	color: #333; /*#2d2d2d;*/
 }
@@ -136,38 +138,54 @@ body {
  	background-position: 0 -70px; } 
 */
 
-
+/*************** SLIDER ********/
+.primary {
+	position:relative;
+}
+#homefeature {
+	display:block;
+	border:15px solid white;
+/*	position:relative;*/
+/*	top: 100px;*/
+	height:400px;
+}
 
 
 /** MAIN CONTENT: SECTION **/
 .separator {
-	/*
-	display:block;
-	background-image: url(../img/separator.png);
-	background-repeat: no-repeat;
-	height: 50px;
-	width:100%; */
-	
+	display:block; 
 	width:100%;
-	height:3px;
-/*	border: black;*/
-	background: #000;
+	height:0.5px;
+	background: transparent;
 }
 
+/* old section */ 
 .section {
-/*	clear:both;*/
 	position:relative;
 	display:block;
 	top:100px;
 	margin-bottom: 30px;
+	width: 100%;
 }
+/*
+.section {
+	position:fixed;
+	display:block;
+	top:150px;
+	margin-top:200px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+*/
+
 
 .section-title {
 	font-size:30px;
 	text-align:left;
 	margin-left: 35px;
-	margin-top:5px;
+	margin-top:10px;
 	color: #000;
+	margin-bottom: 20px;
 }
 
 
@@ -185,6 +203,37 @@ body {
 	top:-3px;
 	left: -4px;
 }*/
+
+
+.arrow-top-left-large {
+	width: 0; 
+	height: 0; 
+	border-left: 	40px solid black;
+	border-top: 	40px solid black;
+	border-right: 	40px solid transparent;
+	border-bottom: 	40px solid transparent;
+	
+	position:absolute;
+	top:-15px;
+	left: -15px;
+	
+	z-index:25;
+}
+
+.arrow-bottom-right-large {
+	width: 0; 
+	height: 0; 
+	border-left: 	40px solid transparent;
+	border-top: 	40px solid transparent;
+	border-right: 	40px solid black;
+	border-bottom: 	40px solid black;
+	
+	position:absolute;
+	left:900px;
+	bottom: -15px;
+	
+	z-index:25;
+}
 
 .arrow-bottom-right {
 	width: 0; 
@@ -210,6 +259,29 @@ body {
 	position:absolute;
 	top:10px;
 	left:0;
+}
+
+
+
+
+/*********** PROJECTSS **********/
+.project-box {
+	width:260px;
+	height:205px;
+	background: #444;
+	display:inline-block;
+	margin:5px;
+	margin-bottom:10px;
+	border:15px solid white;
+/*	box-shadow: h-shadow v-shadow blur spread color inset;*/
+/*		-webkit-box-shadow: 0 8px 12px -6px black;*/
+/*		   -moz-box-shadow: 0 8px 12px -6px black;*/
+/*		        box-shadow: 0 8px 12px -6px black;*/
+	
+}
+
+.section#projects {
+	margin-bottom: 80px;
 }
 
 
@@ -247,5 +319,30 @@ body {
 	background-image: url(../img/profile.png);
 }
 
+#open {
+		background-color:#6495ed;
+		background-image: url(../img/home.png);
+		background-repeat: no-repeat;
+		display:inline-block;
+		width: 200px;
+		height:50px;
+		position:fixed;
+		left:550px;
+		top:200px;
+
+		font-size:25px;	
+		font-weight:800;
+		line-height: 200%;
+		z-index:1;
+}
+
+/*** AJAXING **/
+#about-me{
+	display:none;
+}
+
+#projects{
+	display:none;
+}
 
 
