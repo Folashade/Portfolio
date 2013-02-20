@@ -2,30 +2,111 @@
 
 body {
 	background-color: #dfdfdf;
-/*	font-family: 'Text Me One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;*/
-	padding: 25px;
+	font-family: 'Text Me One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	padding-top: 25px;
+	margin:0;
 }
 
-#outer-container {
-	margin: 0 auto;
+.page-wrapper {
 	text-align: center;
 }
 
-;
-
-/* NAVIGATION */
-#logo {
-	background-image: url('somewhere.jpg');
-	background-repeat: no-repeat;
+ul {
+	display:inline-block;
+	margin:0;
+	padding:0;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-padding-start: 0px;
 }
 
 
-/* Sprite 
- { 
-	color: #2D2D2D;
- background-position: 0 -70px;
- } */
+/* NAVIGATION */
+#logo-wrap {
+	width: 500px;
+	height:500px;
+}
 
+#logo {
+	background-color:#6495ed;
+/*	background-image: url('../img/tri.png');*/
+	background-repeat: no-repeat;
+	display:inline-block;
+	width: 200px;
+	height:50px;
+}
+
+#nav-bar {
+	background-color:#555;
+/*	background-image: url('../img/tri.png');*/
+	background-repeat: no-repeat;
+	display:inline-block;
+	width: 300px;
+	height:50px;
+
+}
+
+
+
+#nav-bar li {
+	
+}
+
+#nav-bar li a {
+	/* adjacent is a **descendant** selector it adds
+	   specificity for something IN something else */
+	text-decoration:none;
+	color: #999;
+	display:inline;
+/*	line-height:1;*/
+}
+
+.nav-buttons { /* not used... */
+	background-color:#888;
+	background-image: url('../img/tri.png');
+	background-repeat: no-repeat;
+	width: 500px;
+	height:500px;	
+}
+
+/* Sprite Stuffs ... { 
+	color: #2D2D2D;
+ 	background-position: 0 -70px; } 
+*/
+
+
+#footer {
+	position:fixed;
+   	bottom:0px;
+    width:100%;
+	background: #222;
+	height:30px; /* auto; auto keeps the bg when screen is tiny*/
+	margin: 0 auto;
+	text-align: center;	
+}
+
+
+.tab {
+	background: no-repeat;
+	display:inline-block;
+	height: 33px;
+	width: 33px;
+	margin: 20px;
+}
+
+/** FOOTER ICONS **/
+.home {
+	background-image: url(../img/home.png);
+}
+.mentions {
+	background-image: url(../img/mentions.png);
+}
+.favorites {
+	background-image: url(../img/favorites.png);
+}
+.profile {
+	background-image: url(../img/profile.png);
+}
 
 
 
