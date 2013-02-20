@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<!--
+
+HELLO THERE!
+Not many people take the time to look at code, so that must mean you're extra awesome!
+This site was hand-coded and designed to be extra awesome, just like you.
+
+-->
+
+<head>
+
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0,user-scalable = false" />
+    <meta name="description" content="Designer by trade. Programmer by night. Minneapolis, MN.">
+    
+	
+	<title>Cory Etzkorn</title>
+	
+	<link rel="shortcut icon" href="http://coryetzkorn.com/wp-content/themes/coryetzkorn/images/favicon.ico">
+	
+	<!-- Webfonts -->
+	<script type="text/javascript">
+	WebFontConfig = { fontdeck: { id: '8386' } };
+	
+	(function() {
+	  var wf = document.createElement('script');
+	  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+	  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+	  wf.type = 'text/javascript';
+	  wf.async = 'true';
+	  var s = document.getElementsByTagName('script')[0];
+	  s.parentNode.insertBefore(wf, s);
+	})();
+	</script>
+	<link rel="stylesheet" href="http://coryetzkorn.com/wp-content/themes/coryetzkorn/style.css">
+	
+	<link rel="pingback" href="http://coryetzkorn.com/xmlrpc.php">
+
+		
+	<link rel="alternate" type="application/rss+xml" title="Cory Etzkorn &raquo; Feed" href="http://coryetzkorn.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cory Etzkorn &raquo; Comments Feed" href="http://coryetzkorn.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cory Etzkorn &raquo; Home Comments Feed" href="http://coryetzkorn.com/home-2/feed/" />
+<link rel='stylesheet' id='wp-paginate-css'  href='http://coryetzkorn.com/wp-content/themes/coryetzkorn/wp-paginate.css?ver=1.2.4' type='text/css' media='screen' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://coryetzkorn.com/wp-includes/js/comment-reply.js?ver=3.4.2'></script>
+<link rel='prev' title='About' href='http://coryetzkorn.com/about/' />
+<link rel='canonical' href='http://coryetzkorn.com/' />
+<meta name="description" content="Designer by trade. Programmer by night. Minneapolis, MN." />
+<meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="3.1.3" />
+    
+    <script type="text/javascript" src="http://coryetzkorn.com/wp-content/themes/coryetzkorn/js/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="http://coryetzkorn.com/wp-content/themes/coryetzkorn/js/fitvid.js"></script>
+    <script type="text/javascript" src="http://coryetzkorn.com/wp-content/themes/coryetzkorn/js/main.js"></script>
+
+</head>
+
+<body class="home page page-id-520 page-template page-template-page-home-php pagename-home-2">
+	
+	<div id="page-wrap">
+
+		<div id="header">
+			<h1 id="wordmark"><a href="http://coryetzkorn.com/">Cory Etzkorn</a></h1>
+            <div class="menu-main-navigation-container"><ul id="menu-main-navigation" class="menu"><li id="menu-item-518" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-518"><a href="http://coryetzkorn.com">work</a></li>
+<li id="menu-item-8" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8"><a href="http://coryetzkorn.com/blog/">blog</a></li>
+<li id="menu-item-7" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7"><a href="http://coryetzkorn.com/about/">about</a></li>
+</ul></div>		</div>
+        
+        <div id="maincontent">
+	<script type="text/javascript">
+	$(document).ready(function() { 
+	$('#homefeature').cycle({
+			fx: 'scrollDown', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+			speed: '1300',
+			timeout: '7000',
+			random: 1
+			});
+    });
+    </script>
+    
+	
+        
+        <!-- MOBILE NAVIGATION -->
+        <div class="mobile_nav">
+        <h3>Select A Project</h3>
+                <ul>
+                                            <li><a href="http://coryetzkorn.com/work/peppermint/">PepperMint</a></li>                                <li><a href="http://coryetzkorn.com/work/lemonaid/">Lemonaid</a></li>                                <li><a href="http://coryetzkorn.com/work/and-found/">And Found</a></li>                                <li><a href="http://coryetzkorn.com/work/london-2012/">London 2012</a></li>                                <li><a href="http://coryetzkorn.com/work/sussner-design-co/">Sussner Design Co.</a></li>                                <li><a href="http://coryetzkorn.com/work/beer-tender/">Beer Tender</a></li>                                <li><a href="http://coryetzkorn.com/work/copy-paste-moving-co/">Copy/Paste Moving Co.</a></li>                                <li><a href="http://coryetzkorn.com/work/reactor/">Reactor</a></li>                                <li><a href="http://coryetzkorn.com/work/wicked-palate/">Wicked Palate</a></li>                                <li><a href="http://coryetzkorn.com/work/kate-erickson/">Kate Erickson</a></li>                                <li><a href="http://coryetzkorn.com/work/logos-marks/">Logos + Marks</a></li>                                <li><a href="http://coryetzkorn.com/work/websites/">Website Vault</a></li>                    </ul>
+        </div><!-- End Mobile Nav -->
+              
+    
+    	<div class="primary"><!-- Port Item / Slider -->
+        				
+            <div id="homefeature">
+            	<a href="work/and-found/"><img src="http://coryetzkorn.com/wp-content/uploads/2011/07/and_found_feature.jpg" alt="And Found - Feature" title="And Found - Feature" width="930" height="400" class="alignnone size-full wp-image-1422" /></a>
+
+<a href="http://coryetzkorn.com/work/reactor/"><img src="http://coryetzkorn.com/wp-content/uploads/2011/07/reactor_hero.jpg" alt="Reactor" title="Reactor" width="930" height="400" class="alignnone size-full wp-image-1513" /></a>
+
+<a href="work/copy-paste-moving-co/"><img src="http://coryetzkorn.com/wp-content/uploads/2011/07/copypaste_feature2.jpg" alt="Copy Paste Moving Co" title="Copy Paste Moving Co" width="930" height="400" class="alignnone size-full wp-image-523" /></a>
+
+<a href="work/wicked-palate/"><img src="http://coryetzkorn.com/wp-content/uploads/2011/07/wicked_palate_feature.jpg" alt="Wicked Palate - Feature" title="Wicked Palate - Feature" width="930" height="400" class="alignnone size-full wp-image-1238" /></a>
+
+<a href="work/peppermint/"><img src="http://coryetzkorn.com/wp-content/uploads/2011/07/peppermint_feature3.jpg" alt="Peppermint - Featured" title="Peppermint - Featured" width="930" height="400" class="alignnone size-full wp-image-1047" /></a>            </div>  
+               
+		        </div><!-- End Port Item -->
+        
+        <!-- Separator -->
+        <div class="separator">
+        <h3>ALL WORK</h3>
+        </div><!-- End Separator -->
+        
+		<!-- All Portfolio Items -->
+		<div class="secondary">
+                            <ul id="portfolio_list">  
+                                <li class="post-28 post type-post status-publish format-standard hentry category-work tag-copywriting tag-design tag-packaging first-post">
+                    <a href="http://coryetzkorn.com/work/peppermint/" alt="PepperMint"><img width="300" height="200" src="http://coryetzkorn.com/wp-content/uploads/2011/07/peppermint_thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="Peppermint - Thumb" title="Peppermint - Thumb" /></a>                        <h4 id="post-28"><a href="http://coryetzkorn.com/work/peppermint/" class="port_item_link">PepperMint</a></h4>
+                    </li>
+                                <li class="post-962 post type-post status-publish format-standard hentry category-work">
+                    <a href="http://coryetzkorn.com/work/lemonaid/" alt="Lemonaid"><img width="300" height="200" src="http://coryetzkorn.com/wp-content/uploads/2012/04/lemonaid_thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="lemonaid_thumb" title="lemonaid_thumb" /></a>                        <h4 id="post-962"><a href="http://coryetzkorn.com/work/lemonaid/" class="port_item_link">Lemonaid</a></h4>
+                    </li>
+                                <li class="post-1413 post type-post status-publish format-standard hentry category-work">
+                    <a href="http://coryetzkorn.com/work/and-found/" alt="And Found"><img width="300" height="200" src="http://coryetzkorn.com/wp-content/uploads/2012/10/and_found_thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="and_found_thumb" title="and_found_thumb" /></a>                        <h4 id="post-1413"><a href="http://coryetzkorn.com/work/and-found/" class="port_item_link">And Found</a></h4>
+                    </li>
+                                <li class="post-167 post type-post status-publish format-standard hentry category-work">
+                    <a href="http://coryetzkorn.com/work/london-2012/" alt="London 2012"><img width="300" height="200" src="http://coryetzkorn.com/wp-content/uploads/2011/07/london_thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="London - Thumb" title="London - Thumb" /></a>                        <h4 id="post-167"><a href="http://coryetzkorn.com/work/london-2012/" class="port_item_link">London 2012</a></h4>
+                    </li>
+                                <li class="post-10 post type-post status-publish format-standard hentry category-work tag-cms tag-design tag-development tag-jquery tag-php tag-seo">
+                    <a href="http://coryetzkorn.com/work/sussner-design-co/" alt="Sussner Design Co."><img width="300" height="200" src="http://coryetzkorn.com/wp-content/uploads/2011/07/sdco_thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="Sussner Design Co - Thumb" title="Sussner Design Co - Thumb" /></a>                        <h4 id="post-10"><a href="http://coryetzkorn.com/work/sussner-design-co/" class="port_item_link">Sussner Design Co.</a></h4>
+                    </li>
+                                <li class="post-23 post type-post status-publish format-standard hentry category-work">
+                    <a href="http://coryetzkorn.com/work/beer-tender/" alt="Beer Tender"><img width="300" height="200" src="http://coryetzkorn.com/wp-content/uploads/2011/07/beer_tender_thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="Beer Tender - Thumb" title="Beer Tender - Thumb" /></a>                        <h4 id="post-23"><a href="http://coryetzkorn.com/work/beer-tender/" class="port_item_link">Beer Tender</a></h4>
+                    </li>
+                                <li class="post-37 post type-post status-publish format-standard hentry category-work tag-copywriting tag-design tag-identity tag-strategy">
+                    <a href="http://coryetzkorn.com/work/copy-paste-moving-co/" alt="Copy/Paste Moving Co."><img width="300" height="200" src="http://coryetzkorn.com/wp-content/uploads/2011/07/copy_paste_thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="Copy Paste - Thumb" title="Copy Paste - Thumb" /></a>                        <h4 id="post-37"><a href="http://coryetzkorn.com/work/copy-paste-moving-co/" class="port_item_link">Copy/Paste Moving Co.</a></h4>
+                    </li>
+                                <li class="post-1472 post type-post status-publish format-standard hentry category-work">
+                    <a href="http://coryetzkorn.com/work/reactor/" alt="Reactor"><img width="300" height="200" src="http://coryetzkorn.com/wp-content/uploads/2012/12/reactor_thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="reactor_thumb" title="reactor_thumb" /></a>                        <h4 id="post-1472"><a href="http://coryetzkorn.com/work/reactor/" class="port_item_link">Reactor</a></h4>
+                    </li>
+                                <li class="post-1211 post type-post status-publish format-standard hentry category-work">
+                    <a href="http://coryetzkorn.com/work/wicked-palate/" alt="Wicked Palate"><img width="300" height="200" src="http://coryetzkorn.com/wp-content/uploads/2011/07/wickedpalate_thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="wickedpalate_thumb" title="wickedpalate_thumb" /></a>                        <h4 id="post-1211"><a href="http://coryetzkorn.com/work/wicked-palate/" class="port_item_link">Wicked Palate</a></h4>
+                    </li>
+                                <li class="post-1069 post type-post status-publish format-standard hentry category-work">
+                    <a href="http://coryetzkorn.com/work/kate-erickson/" alt="Kate Erickson"><img width="300" height="200" src="http://coryetzkorn.com/wp-content/uploads/2011/07/kje_thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="kje_thumb" title="kje_thumb" /></a>                        <h4 id="post-1069"><a href="http://coryetzkorn.com/work/kate-erickson/" class="port_item_link">Kate Erickson</a></h4>
+                    </li>
+                                <li class="post-420 post type-post status-publish format-standard hentry category-work">
+                    <a href="http://coryetzkorn.com/work/logos-marks/" alt="Logos + Marks"><img width="300" height="200" src="http://coryetzkorn.com/wp-content/uploads/2011/07/logos_and_marks.jpg" class="attachment-post-thumbnail wp-post-image" alt="Logos And Marks - Thumb" title="Logos And Marks - Thumb" /></a>                        <h4 id="post-420"><a href="http://coryetzkorn.com/work/logos-marks/" class="port_item_link">Logos + Marks</a></h4>
+                    </li>
+                                <li class="post-455 post type-post status-publish format-standard hentry category-work last-post">
+                    <a href="http://coryetzkorn.com/work/websites/" alt="Website Vault"><img width="300" height="200" src="http://coryetzkorn.com/wp-content/uploads/2011/07/web_thumb1.jpg" class="attachment-post-thumbnail wp-post-image" alt="web_thumb" title="web_thumb" /></a>                        <h4 id="post-455"><a href="http://coryetzkorn.com/work/websites/" class="port_item_link">Website Vault</a></h4>
+                    </li>
+                        </ul><!-- End Portfolio -->
+		
+        <br class="clear" />
+        </div><!-- End All Portfolio Items -->	            
+        	
+    </div> <!-- End Maincontent -->
+        
+    <div id="footer">
+        <span style="float: left;">&copy;2013 Cory Etzkorn <strong style="padding-left: 10px;">Pushing Pixels + Conceptual Boundaries Since 1990</strong></span>
+        <span style="float: right;"><a href="http://www.twitter.com/coryetzkorn">Twitter</a> <a style="margin-left: 10px;" href="http://coryetzkorn.com/about/">Contact</a></span>
+    </div>
+
+	</div> <!-- End Page Wrap -->
+
+		
+	<!-- GOOGLE ANALYTICS -->
+	<script type="text/javascript">
+    
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-9651233-2']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+	
+</body>
+
+</html>

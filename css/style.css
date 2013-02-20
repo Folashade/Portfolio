@@ -1,0 +1,57 @@
+/****** Main Style Sheet ******/
+
+body {
+	background-color: #dfdfdf;
+/*	font-family: 'Text Me One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;*/
+	padding: 25px;
+}
+
+#outer-container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+;
+
+/* NAVIGATION */
+.menu-main-navigation-container { 
+	position: absolute;
+	right: -4px;
+	top: 0;
+	width: 540px;
+	height: 60px;
+ }
+#menu-main-navigation { width: 540px;
+	 height: 60px;
+ }
+#menu-main-navigation li { float: left;
+ margin-left: 40px;
+ }
+#menu-main-navigation li a { width: 120px;
+ padding: 16px 10px 16px 10px;
+ background: #ffffff;
+ display: block;
+ height: 30px;
+ text-align: center;
+ font-size: 18px;
+ text-decoration: none;
+ background: url('../img/nav_sprite.png') no-repeat top;
+ color: #AAAAAA;
+ text-transform: uppercase;
+ }
+#menu-main-navigation li.current-menu-item a, 
+#menu-main-navigation li.current-category-ancestor a, 
+#menu-main-navigation li.current-post-ancestor a, #menu-main-navigation li a:hover, 
+.single-work #menu-main-navigation li.menu-item-home a { 
+	color: #2D2D2D;
+ background-position: 0 -70px;
+ }
+
+.home .primary {padding-bottom: 15px;}
+
+.page .primary { font-size: 16px; line-height: 1.48; }
+.page .primary a { color: #2D2D2D; text-decoration: none; font-family:"Din Display Pro Medium", Verdana, sans-serif; }
+.page .primary p { margin-bottom: 10px; color: #2D2D2D; padding-bottom: 0; }
+
+#header { margin: 42px 0px 30px 0px; height: 70px; position: relative; }
+
