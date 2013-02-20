@@ -58,6 +58,13 @@ body {
 	line-height: 200%;
 }
 
+#tagline {
+	position: absolute;
+	top:25px;
+	right:20px;
+	font-size:16px;
+	color: #00C5CD;
+}
 #nav-bar {
 /*	background-color:#555;*/
 /*	background-image: url('../img/tri.png');*/
