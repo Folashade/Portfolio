@@ -1,0 +1,347 @@
+/****** Main Style Sheet ******/
+
+/** sgiteal	#388E8E **/
+/* http://www.december.com/html/spec/color3.html */
+/* COLORS:
+Teal Hover: 00C5CD
+
+*/
+
+
+body {
+	background-color: #dfdfdf;
+	background-image: url(../img/extra_clean_paper.png);
+	font-family: 'Text Me One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	padding-top: 25px;
+	margin:0;
+}
+
+.page-wrapper {
+	text-align: center;
+	position:relative;
+	width:960px;
+	margin:0 auto;
+}
+
+/*ul { 
+	display:inline-block;
+	margin:0;
+	padding:0;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-padding-start: 0px;
+}*/
+
+
+/******* NAVIGATION *******/
+#header {
+	vertical-align: top;
+}
+
+#logo-wrap {
+/*	width: 100px;
+	height:500px;*/
+}
+
+#logo {
+/*	background-color:#6495ed;*/
+/*	background-image: url(../img/home.png);*/
+/*	background-repeat: no-repeat;*/
+	display:inline-block;
+	width: 200px;
+	height:50px;
+	position:absolute;
+	left:25px;
+	
+	font-size:25px;	
+	font-weight:800;
+	line-height: 200%;
+}
+
+#nav-bar {
+/*	background-color:#555;*/
+/*	background-image: url('../img/tri.png');*/
+	background-repeat: no-repeat;
+	display:inline-block;
+	width: 400px;
+	height: 50px;
+	vertical-align:top; /* why is this necessary */
+	position:absolute;
+	right:25px;
+}
+
+
+.nav-buttons {
+	display:inline-block;
+	background-color:#fff;
+/*	opacity: 0.5;*/
+/*	background-image: url('../img/tri.png');*/
+/*	background-repeat: no-repeat;*/
+	width: 90px;
+	min-height: 30px; /* 30 + 20pt font is 50px height navbar*/
+	vertical-align:middle;
+	font-size:20px;	 
+/*	margin:0 auto;*/
+	padding:10px;
+	line-height:150%;
+	margin-left:10px;
+	
+	
+	position: relative;/*for CSS corners*/
+}
+
+.nav-buttons.on-page {
+	/** concatenate so that it works ONLY when both classes present*/
+/*	opacity: 0.6;*/
+}
+
+.nav-buttons.on-page .arrow-bottom-right {
+	bottom: 0px;
+	right: 	0px;
+	border-right: 	10px solid #00C5CD;
+	border-bottom: 	10px solid #00C5CD;
+}
+
+
+/*.section#slider {*/
+/*	margin-top:25px;*/
+/*}*/
+
+
+
+/****** MOVE TRIANGLES ON HOVER ******/
+.nav-buttons:hover {
+/*	background-color: transparent;*/
+}
+
+.nav-buttons:hover .arrow-bottom-right {
+	bottom: 0px;
+	right: 	0px;
+}
+
+.nav-buttons:hover .arrow-top-left {
+	top: 0px;
+	left: 	0px;
+}
+
+.nav-buttons:hover a {
+	color: #00C5CD;
+}
+
+.nav-buttons a {
+	text-decoration:none;
+	color: #333; /*#2d2d2d;*/
+}
+
+/* Sprite Stuffs ... { 
+	color: #2D2D2D;
+ 	background-position: 0 -70px; } 
+*/
+
+/*************** SLIDER ********/
+.primary {
+	position:relative;
+}
+#homefeature {
+	display:block;
+	border:15px solid white;
+/*	position:relative;*/
+/*	top: 100px;*/
+	height:400px;
+}
+
+
+/** MAIN CONTENT: SECTION **/
+.separator {
+	display:block; 
+	width:100%;
+	height:0.5px;
+	background: transparent;
+}
+
+/* old section  
+.section {
+	position:relative;
+	display:block;
+	top:100px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+*/
+.section {
+	position:fixed;
+	display:block;
+	top:150px;
+	margin-bottom: 30px;
+	width: 960px;
+}
+
+
+
+.section-title {
+	font-size:30px;
+	text-align:left;
+	margin-left: 35px;
+	margin-top:10px;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+
+/*********** ARROWS **************/
+
+/*.arrow-top-left {
+	width: 0; 
+	height: 0; 
+	border-left: 	10px solid black;
+	border-top: 	10px solid black;
+	border-right: 	10px solid transparent;
+	border-bottom: 	10px solid transparent;
+	
+	position:absolute;
+	top:-3px;
+	left: -4px;
+}*/
+
+
+.arrow-top-left-large {
+	width: 0; 
+	height: 0; 
+	border-left: 	40px solid black;
+	border-top: 	40px solid black;
+	border-right: 	40px solid transparent;
+	border-bottom: 	40px solid transparent;
+	
+	position:absolute;
+	top:-15px;
+	left: -15px;
+	
+	z-index:25;
+}
+
+.arrow-bottom-right-large {
+	width: 0; 
+	height: 0; 
+	border-left: 	40px solid transparent;
+	border-top: 	40px solid transparent;
+	border-right: 	40px solid black;
+	border-bottom: 	40px solid black;
+	
+	position:absolute;
+	left:900px;
+	bottom: -15px;
+	
+	z-index:25;
+}
+
+.arrow-bottom-right {
+	width: 0; 
+	height: 0; 
+	border-left: 	10px solid transparent;
+	border-top: 	10px solid transparent;
+	border-right: 	10px solid black;
+	border-bottom: 	10px solid black;
+	
+	position:absolute;
+	bottom:-3px;
+	right: -4px;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 	15px solid transparent;
+	border-top: 	30px solid #00C5CD;
+	border-right: 	15px solid transparent;
+	border-bottom: 	20px solid transparent;
+	
+	position:absolute;
+	top:10px;
+	left:0;
+}
+
+
+
+
+/*********** PROJECTSS **********/
+.project-box {
+	width:260px;
+	height:205px;
+	background: #444;
+	display:inline-block;
+	margin:5px;
+	margin-bottom:10px;
+	border:15px solid white;
+/*	box-shadow: h-shadow v-shadow blur spread color inset;*/
+/*		-webkit-box-shadow: 0 8px 12px -6px black;*/
+/*		   -moz-box-shadow: 0 8px 12px -6px black;*/
+/*		        box-shadow: 0 8px 12px -6px black;*/
+	
+}
+
+.section#projects {
+	margin-bottom: 80px;
+}
+
+
+/*********** FOOTER **********/
+#footer {
+	position:fixed;
+   	bottom:0px;
+    width:100%;
+	background: #222;
+	height:30px; /* auto; auto keeps the bg when screen is tiny*/
+	margin: 0 auto;
+	text-align: center;	
+}
+
+
+.tab {
+	background: no-repeat;
+	display:inline-block;
+	height: 33px;
+	width: 33px;
+	margin: 20px;
+}
+
+/** FOOTER ICONS **/
+.home {
+	background-image: url(../img/home.png);
+}
+.mentions {
+	background-image: url(../img/mentions.png);
+}
+.favorites {
+	background-image: url(../img/favorites.png);
+}
+.profile {
+	background-image: url(../img/profile.png);
+}
+
+#open {
+		background-color:#6495ed;
+		background-image: url(../img/home.png);
+		background-repeat: no-repeat;
+		display:inline-block;
+		width: 200px;
+		height:50px;
+		position:fixed;
+		left:550px;
+		top:200px;
+
+		font-size:25px;	
+		font-weight:800;
+		line-height: 200%;
+		z-index:1;
+}
+
+/*** AJAXING **/
+#about-me{
+	display:none;
+}
+
+#projects{
+	display:none;
+}
+
+
