@@ -1,7 +1,16 @@
 /****** Main Style Sheet ******/
 
+/** sgiteal	#388E8E **/
+/* http://www.december.com/html/spec/color3.html */
+/* COLORS:
+Teal Hover: 00C5CD
+
+*/
+
+
 body {
 	background-color: #dfdfdf;
+	background-image: url(../img/extra_clean_paper.png);
 	font-family: 'Text Me One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	padding-top: 25px;
 	margin:0;
@@ -9,64 +18,117 @@ body {
 
 .page-wrapper {
 	text-align: center;
+	position:relative;
+	width:960px;
+	margin:0 auto;
 }
 
-ul {
+/*ul { 
 	display:inline-block;
 	margin:0;
 	padding:0;
 	-webkit-margin-before: 0px;
 	-webkit-margin-after: 0px;
 	-webkit-padding-start: 0px;
-}
+}*/
 
 
 /* NAVIGATION */
+#header {
+	vertical-align: top;
+}
+
 #logo-wrap {
-	width: 500px;
-	height:500px;
+/*	width: 100px;
+	height:500px;*/
 }
 
 #logo {
-	background-color:#6495ed;
-/*	background-image: url('../img/tri.png');*/
-	background-repeat: no-repeat;
+/*	background-color:#6495ed;*/
+/*	background-image: url(../img/home.png);*/
+/*	background-repeat: no-repeat;*/
 	display:inline-block;
 	width: 200px;
 	height:50px;
+	position:absolute;
+	left:25px;
+	
+	font-size:25px;	
+	font-weight:800;
+	line-height: 200%;
 }
 
 #nav-bar {
-	background-color:#555;
+/*	background-color:#555;*/
 /*	background-image: url('../img/tri.png');*/
 	background-repeat: no-repeat;
 	display:inline-block;
-	width: 300px;
-	height:50px;
-
+	width: 400px;
+	height: 50px;
+	vertical-align:top; /* why is this necessary */
+	position:absolute;
+	right:25px;
 }
 
 
-
-#nav-bar li {
+.nav-buttons {
+	display:inline-block;
+	background-color:#fff;
+/*	opacity: 0.5;*/
+/*	background-image: url('../img/tri.png');*/
+/*	background-repeat: no-repeat;*/
+	width: 90px;
+	min-height: 30px; /* 30 + 20pt font is 50px height navbar*/
+	vertical-align:middle;
+	font-size:20px;	 
+/*	margin:0 auto;*/
+	padding:10px;
+	line-height:150%;
+	margin-left:10px;
 	
+	
+	position: relative;/*for CSS corners*/
 }
 
-#nav-bar li a {
-	/* adjacent is a **descendant** selector it adds
-	   specificity for something IN something else */
+.nav-buttons.on-page {
+	/** concatenate so that it works ONLY when both classes present*/
+/*	opacity: 0.6;*/
+}
+
+.nav-buttons.on-page .arrow-bottom-right {
+	bottom: 0px;
+	right: 	0px;
+	border-right: 	10px solid #00C5CD;
+	border-bottom: 	10px solid #00C5CD;
+}
+
+
+
+
+
+
+/****** MOVE TRIANGLES ON HOVER ******/
+.nav-buttons:hover {
+/*	background-color: transparent;*/
+}
+
+.nav-buttons:hover .arrow-bottom-right {
+	bottom: 0px;
+	right: 	0px;
+}
+
+.nav-buttons:hover .arrow-top-left {
+	top: 0px;
+	left: 	0px;
+}
+
+.nav-buttons:hover a {
+	color: #00C5CD;
+}
+
+.nav-buttons a{
 	text-decoration:none;
-	color: #999;
-	display:inline;
-/*	line-height:1;*/
-}
-
-.nav-buttons { /* not used... */
-	background-color:#888;
-	background-image: url('../img/tri.png');
-	background-repeat: no-repeat;
-	width: 500px;
-	height:500px;	
+	color: #333; /*#2d2d2d;*/
 }
 
 /* Sprite Stuffs ... { 
@@ -75,6 +137,83 @@ ul {
 */
 
 
+
+
+/** MAIN CONTENT: SECTION **/
+.separator {
+	/*
+	display:block;
+	background-image: url(../img/separator.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width:100%; */
+	
+	width:100%;
+	height:3px;
+/*	border: black;*/
+	background: #000;
+}
+
+.section {
+/*	clear:both;*/
+	position:relative;
+	display:block;
+	top:100px;
+	margin-bottom: 30px;
+}
+
+.section-title {
+	font-size:30px;
+	text-align:left;
+	margin-left: 35px;
+	margin-top:5px;
+	color: #000;
+}
+
+
+/*********** ARROWS **************/
+
+/*.arrow-top-left {
+	width: 0; 
+	height: 0; 
+	border-left: 	10px solid black;
+	border-top: 	10px solid black;
+	border-right: 	10px solid transparent;
+	border-bottom: 	10px solid transparent;
+	
+	position:absolute;
+	top:-3px;
+	left: -4px;
+}*/
+
+.arrow-bottom-right {
+	width: 0; 
+	height: 0; 
+	border-left: 	10px solid transparent;
+	border-top: 	10px solid transparent;
+	border-right: 	10px solid black;
+	border-bottom: 	10px solid black;
+	
+	position:absolute;
+	bottom:-3px;
+	right: -4px;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 	15px solid transparent;
+	border-top: 	30px solid #00C5CD;
+	border-right: 	15px solid transparent;
+	border-bottom: 	20px solid transparent;
+	
+	position:absolute;
+	top:10px;
+	left:0;
+}
+
+
+/*********** FOOTER **********/
 #footer {
 	position:fixed;
    	bottom:0px;
